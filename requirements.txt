@@ -27,11 +27,13 @@ selenium>=4.15.0
 # Audio processing (multimodal)
 
 openai-whisper>=20231117
+soundfile>=0.12.1
 pyaudio>=0.2.14
 
 # OCR (multimodal)
 
 easyocr>=1.7.0
+opencv-python>=4.8.1
 pytesseract>=0.3.10
 Pillow>=10.0.0
 
@@ -40,11 +42,12 @@ Pillow>=10.0.0
 PyPDF2>=3.0.0
 pdfplumber>=0.10.0
 python-docx>=1.0.0
+openpyxl>=3.1.0
 
 # Text processing
 
 ftfy>=6.1.0
-langdetect>=1.0.9
+fasttext>=0.9.2
 python-dateutil>=2.8.0
 
 # Web framework
